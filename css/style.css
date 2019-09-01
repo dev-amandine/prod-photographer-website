@@ -1,0 +1,76 @@
+/* SELECTEURS GENERALS */
+
+* {
+    margin: 0; padding: 0; background: rgb(32, 25, 25);
+    display: grid; 
+}
+body{
+    font-family: serif;
+}
+h1 {
+    font-family: fantasy; 
+    font-size: 2rem;
+    color:pink;
+}
+.special {
+    font-family: fantasy;
+    font-size: 2rem;
+    color: peachpuff;
+}
+.wrapper {
+    margin: auto;
+    width: 1000px;
+    padding:1opx;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none; 
+    color: white; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* HEADER */
+
+header h1{
+    float: left; 
+    margin-top: 20px;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    display:inline-block; 
+    text-transform: uppercase; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px; 
+    margin-right: 20px;
+    float: left;
+}
+
+/* MAIN */
+.main {
+    height: 900px;
+    background: url("images/22.jpg")
+}
+.main-image {
+    height: 900px; disposition: center;
+}
+.main h2 {
+    text-align: center; color: white;
+}
+
+
+/* FOOTER */
+.h1footer {
+    font-size: 1rem;
+    font-family: serif;
+    color: pink; 
+    text-align: center;
+}
+footer {
+    text-align: center; 
+    font-family: serif; 
+    font-size: 1rem;
+}

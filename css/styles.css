@@ -1,0 +1,20 @@
+/* SELECTEURS GENERALS */
+
+* {
+    margin: 0; padding: 0; background: whitesmoke;
+}
+body{
+    font-family: serif;
+}
+h1 {
+    font-family: fantasy; font-size: 40px; color: rgb(78, 3, 38);
+}
+.special {
+    font-family: fantasy; font-size: 40px; color: pink;
+}
+
+/* HEADER */
+
+header h1{
+    float: left;
+}
