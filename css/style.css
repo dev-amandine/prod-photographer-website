@@ -8,11 +8,11 @@
 }
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 13px;
+    font-size: 10.5px;
 }
 h1 {
     font-family: serif; 
-    font-size: 25px;
+    font-size: 22px;
     color:pink;
 }
 .special {
@@ -37,10 +37,21 @@ h2 {
     text-align: left; color: white; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
 }
-
+h4 {
+    font-family:serif; 
+    text-align: center;
+    color: pink;
+}
+.appel {
+    display: block;
+    background: pink;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+}
 /* HEADER */
 
-header h1{
+header h1 {
     float: left; 
     margin-top: 20px;
 }
@@ -56,18 +67,17 @@ header nav ul li {
 }
 
 /* MAIN */
+#main h2 {
+    text-align: center; 
+    color: white; 
+    font-weight: normal;
+}
 #main-image {
     height: 580;
     background: url("images/22.jpg") center;
 }
 .mainimage {
     height: 900px; disposition: center;
-}
-#main h2 {
-    text-align: center; 
-    color: white; 
-    font-weight: normal;
-    padding: 150px 0px 40px 6px;
 }
 .button {
     display: block;
@@ -82,24 +92,59 @@ header nav ul li {
 }
 
 /* STEPS */
-.steps ul li {
-    width: 180px; 
-    float: left;
-    font-size: 1rem; 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
 
+
+/* GALERIE IMAGES */
+.galerie {
+    display: block; center;
+}
+div#slider { 
+    width: 80%; 
+    max-width: 1000px; 
+    margin: 100;}
+div#slider figure {
+    position: relative;
+    width: 170%;
+    margin: 100;
+    padding: 100;
+    font-size: 0;
+    text-align: left;
+    text-align: left;
+  animation: 30s slidy infinite;
+  }
+  div#slider figure img { 
+      width: 20%; 
+      height: auto; 
+      float: left; 
+      margin: 3px;}
+
+  div#slider { 
+      width: 80%; 
+      max-width: 1000px; 
+      overflow: hidden }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+  }
 
 /* FOOTER */
+footer {
+    text-align: center; 
+    font-family: serif; 
+    font-size: 1rem;
+    color: white;
+}
 .h1footer {
     font-size: 1rem;
     font-family: serif;
     color: pink; 
     text-align: center;
-}
-footer {
-    text-align: center; 
-    font-family: serif; 
-    font-size: 1rem;
 }
