@@ -91,21 +91,47 @@ header nav ul li {
     line-height: 45px;
 }
 
-/* STEPS */
+/* ACCUEIL */
+.h1galerie {
+    margin: 0 auto; 
+    text-align: center; 
+    color:white;
+}
+.photo_photographe {
+    height: 20%; disposition:center;  
+    margin-top: 30px; 
+    width: 50%;
+    margin-right: 20px;
+    float: right;
+}
+.presentation {
+    text-align: center; 
+    color: pink;
+    font-family: 'Lucida Sans';
+    font-size: 1rem;
+}
+
+/* STEP ABOUT GROSSESSE */
+.h1galerie {
+    margin: 0 auto; text-align: center; color:white;
+}
 
 
 /* GALERIE IMAGES */
 .galerie {
-    display: block; center;
+    display: block; center; margin: 0 auto;
+}
+.h1galerie {
+    margin: 0 auto; text-align: center; color:white;
 }
 div#slider { 
     width: 80%; 
     max-width: 1000px; 
-    margin: 100;}
+    margin: 0 auto;}
 div#slider figure {
     position: relative;
     width: 170%;
-    margin: 100;
+    margin: 0 auto;
     padding: 100;
     font-size: 0;
     text-align: left;
